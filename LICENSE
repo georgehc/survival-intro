@@ -1,0 +1,43 @@
+The MIT license below applies to all files in this repository except:
+- all files in the directory `data`, which are publicly available datasets
+  (see README.md for links to where these datasets were obtained)
+- all files in the directories `torchtuples` and `pycox`, which are by Haavard
+  Kvamme (with minor modifications by George H. Chen) and are under a BSD
+  2-clause license (see `torchtuples/LICENSE` and `pycox/LICENSE`)
+- all files in the directory `SODEN`, which are from this repository:
+  https://github.com/jiaqima/SODEN
+  (these are under an MIT license with copyright holder Jiaqi Ma:
+  https://github.com/jiaqima/SODEN/blob/main/LICENSE -- note that
+  George H. Chen has modified a single import line to use a relative path
+  in `models.py`)
+- the `ddh_torch.py` and `losses.py` files in the directory `ddh`, which are
+  by Vincent Jeanselme (with minor modifications by George H. Chen) and are
+  from this repository: https://github.com/Jeanselme/DynamicDeepHit
+  (at the time of writing, there is no known license)
+- the `models.py` file in the directory `survival_kernets`, which is by
+  George H. Chen and is from this repository:
+  https://github.com/georgehc/survival-kernets
+  (this code is under an MIT license:
+  https://github.com/georgehc/survival-kernets/blob/main/LICENSE)
+
+-------------------------------------------------------------------------------
+
+Copyright (c) 2024 George H. Chen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

@@ -1,0 +1,15 @@
+{
+    "ode": {
+        "surv_ode_0": {
+            "layer_type": "surv_ode",
+            "has_feature": true,
+            "func_type": "cox_mlp_exp",
+            "batch_norm": false
+        }
+    },
+    "custom_train_range_specs": {
+        "batch_size": {
+	        "categories": [128, 256, 512]
+	    }
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "grad_clip": 100,
+    "optim": "RMSprop"
+}

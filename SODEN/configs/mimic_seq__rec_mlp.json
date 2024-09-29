@@ -1,0 +1,17 @@
+{
+	"rnn": {
+        "rnn_0": {
+            "layer_type": "rnn",
+            "rnn_type": "GRU",
+            "num_layers": 1
+        }
+    },
+    "ode": {
+        "surv_ode_0": {
+            "layer_type": "surv_ode",
+            "has_feature": true,
+            "func_type": "rec_mlp",
+            "batch_norm": false
+        }
+    }
+}
