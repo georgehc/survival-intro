@@ -556,10 +556,12 @@ def load_dataset(dataset, random_seed_offset=0, test_size=0.3,
         if type(X_train) == np.ndarray:
             X_train = X_train[shuffled_indices]
             Y_train = Y_train[shuffled_indices]
+            D_train = D_train[shuffled_indices]
         else:
             assert type(X_train) == list
             X_train = [X_train[idx] for idx in shuffled_indices]
             Y_train = [Y_train[idx] for idx in shuffled_indices]
+            D_train = [D_train[idx] for idx in shuffled_indices]
     else:
         # this second case corresponds to when the dataset does *not* have
         # pre-specified training and test data, so we need to define
