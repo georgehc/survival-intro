@@ -4,16 +4,15 @@ Author: George H. Chen (georgechen [at symbol] cmu.edu)
 
 This repository provides accompanying code for the monograph:
 
-```
-George H. Chen. "An Introduction to Deep Survival Analysis Models for Predicting Time-to-Event Outcomes".
-```
+> George H. Chen (2024), "An Introduction to Deep Survival Analysis Models for Predicting Time-to-Event Outcomes", Foundations and Trends® in Machine Learning: Vol. 17: No. 6, pp 921-1100. http://dx.doi.org/10.1561/2200000114 \
+> \[[arXiv](https://arxiv.org/abs/2410.01086)\]
 
 Throughout this repository, we regularly refer to specific sections, examples, equations, etc from the monograph. We also regularly cite papers listed in the bibliography at the end of the monograph.
 
 ## Prerequisites
 
 - Anaconda Python 3 (tested with Anaconda version 2024.06 running Python 3.12.4)
-- Additional packages: `lifelines`, `scikit-survival`, `torch` (tested with PyTorch version 2.3.1 with CUDA 12.1), `torchsurv`, `xgboost`, `hnswlib`, and `torchdiffeq`; for more precise details, see the [requirements.txt](requirements.txt) file (includes the packages we just mentioned along with various other packages that should already come with Anaconda Python 3 or that are dependencies for some packages we rely on) which can be installed via `pip install -r requirements.txt`
+- Additional packages: `lifelines`, `scikit-survival`, `SurvivalEVAL`, `torch` (tested with PyTorch version 2.3.1 with CUDA 12.1), `torchsurv`, `xgboost`, `hnswlib`, and `torchdiffeq`; for more precise details, see the [requirements.txt](requirements.txt) file (includes the packages we just mentioned along with various other packages that should already come with Anaconda Python 3 or that are dependencies for some packages we rely on) which can be installed via `pip install -r requirements.txt`
 
 This repository comes with slightly modified versions of the following packages/files (which means that you do not need to manually obtain these yourself):
 - Haavard Kvamme's [PyCox](https://github.com/havakv/pycox) and [torchtuples](https://github.com/havakv/torchtuples) packages (some bug fixes/print flushing) --- these are in the directories `./pycox/` and `./torchtuples/` respectively (note that Kvamme's code is under a BSD 2-clause license)
